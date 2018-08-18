@@ -1,0 +1,138 @@
+.header-wrapper, .main, .footer-wrapper {
+    padding: 0 2em;
+    margin: 0 auto;
+    max-width: 960px;
+    position: relative;
+}
+body {
+    background: #f5f5f5;
+}
+a {
+    color: #3bafda;
+}
+code, pre {
+    background: white;
+    border-radius: 0.3em;
+    margin-bottom: 2em;
+    padding: 1em 2em;
+}
+code {
+    display: inline-block;
+    margin: 1em 0;
+    padding: 0.75em 1.5em;
+}
+.browserupgrade {
+    background: #f1c40f;
+    color: #000;
+    margin: 0;
+    padding: 0.5em 0;
+    text-align: center;
+}
+.browserupgrade a {
+    color: inherit;
+}
+.header {
+    background: #3bafda;
+    padding: 2em 0;
+}
+@media (min-width: 768px) {
+    .header {
+        padding: 4em 0;
+    }
+}
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+@media (max-width: 767px) {
+    .header-wrapper {
+        flex-wrap: wrap;
+    }
+}
+.header h1, .header h2 {
+    color: #f1f1f1;
+}
+.header h1 {
+    font-size: 2em;
+    margin-top: 0;
+}
+@media (min-width: 768px) {
+    .header h1 {
+        font-size: 3em;
+    }
+}
+.header h2 {
+    font-weight: normal;
+}
+@media (max-width: 767px) {
+    .header h2 {
+        font-size: 1.3em;
+    }
+}
+.header .header-content {
+    padding-right: 4em;
+}
+@media (max-width: 767px) {
+    .header .header-content {
+        margin-bottom: 2em;
+    }
+}
+.header .header-buttons .header-button {
+    background: #2c3e50;
+    border-radius: 0.3em;
+    color: white;
+    display: block;
+    text-decoration: none;
+    padding: 1em;
+    text-align: center;
+    width: 10em;
+}
+.header .header-buttons .header-button:hover {
+    background: #1a252f;
+}
+.header .header-buttons .header-button:first-child {
+    margin-bottom: 2em;
+}
+.main {
+    padding-top: 1em;
+}
+.main .intro {
+    font-size: 1.2em;
+    margin-bottom: 2em;
+}
+@media (min-width: 960px) {
+    .main .intro {
+        max-width: 80%;
+    }
+}
+.footer {
+    background: #2c3e50;
+    color: #f1f1f1;
+    margin-top: 2em;
+    padding: 2em 0;
+}
+.footer a {
+    color: #f1f1f1;
+}
+.demo .content {
+    background: #3bafda;
+    border-radius: 0.3em;
+    color: #000;
+    line-height: 3em;
+    min-height: 3em;
+    text-align: center;
+}
+.demo .content.darkblue {
+    background: #1c7393;
+}
+.demo .content > .grid > .row .content {
+    color: #fff;
+    background: #1c7393;
+    opacity: 1;
+    border: 0;
+}
+.demo-column-height .content {
+    line-height: 1.5em;
+    padding: 1em;
+    text-align: left;
+}
